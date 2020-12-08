@@ -21,6 +21,9 @@ body{
     margin-bottom: auto;
     margin-left: auto
     
-    
+}
 
+.profwhite{
+    background-color: white;
+    color: black;
 }
