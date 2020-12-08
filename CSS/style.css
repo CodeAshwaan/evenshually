@@ -14,10 +14,13 @@ body{
     margin:0;
 }
 
-}
 .innercontainer {
-    
+    margin-top:400px;
     width: 40%;
-    margin: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto
+    
+    
 
 }
