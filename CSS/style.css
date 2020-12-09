@@ -1,30 +1,53 @@
-body{
-    background-image: url("WEBSITE-BANNER-1.png"), url("WEBSITE-BACKGROUND.jpg");
-    background-repeat:no-repeat, repeat-y;
-    background-position-x: center;
-    background-size: auto;
-    color: white;
-
-    font-family: Helvetica;
-    font-size: 16px;
-    font-weight: normal;
-    font:normal 16px Helvetica;
-
-    line-height: 1.6em;
-    margin:0;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-.innercontainer {
-    margin-top:400px;
-    width: 40%;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto
-    
+body {
+    background-color: darkgray;
 }
 
-.profwhite{
-    background-color: white;
-    color: black;
+.row{
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    background-color: cornsilk;
+}
+
+.logo{
+    height: 50px;
+    background-color: darkgrey;
+    width: 150px;
+}
+
+.menu{
+    height: 50px;
+    background-color: darkorange;
+    width: 150px;
+    flex-grow: 1;
+}
+
+.search{
+    height: 50px;
+    background-color: darkseagreen;
+    width: 150px;
+}
+
+.banner{
+    background: rgb(1, 30,20);
+    background: linear-gradient();
+    height: 400px;
+    flex-grow: 1;
+}
+
+.service-box{
+    margin: 10px;
     padding: 10px;
+    flex-grow: 1;
+    background-color: seashell;
 }
