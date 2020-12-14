@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: darkgray;
+    background-color: #ff7f50;
 }
 
 .row{
     display: flex;
     flex-direction: row;
-    background-color: coral;
+    background-color: #ff7f50;
     margin: 10px;
 }
 
